@@ -6,7 +6,7 @@
     "rollup": "rollup -c"
   },
   "author": "Karim Hassan",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.3",
@@ -22,8 +22,5 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/karim-w"
-  }
+  "types": "dist/index.d.ts"
 }
