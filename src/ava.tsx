@@ -1,10 +1,9 @@
-import React from "react";
-
+import { CSSProperties } from "react";
 export interface AvaProps {
   initials: string;
-  width: React.CSSProperties["width"];
-  height: React.CSSProperties["height"];
-  textSize?: React.CSSProperties["fontSize"];
+  width: CSSProperties["width"];
+  height: CSSProperties["height"];
+  textSize?: CSSProperties["fontSize"];
 }
 
 const bg = (initials: string): string => {
@@ -38,7 +37,7 @@ export const Ava = ({
         borderRadius: "50%",
         fontWeight: "600",
         boxShadow:
-          "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);",
+          "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
         filter:
           "drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));",
         backdropFilter: "blur(10px)",
